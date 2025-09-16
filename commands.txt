@@ -1,0 +1,19 @@
+Source: 
+https://github.com/IlyasAzeem/tutorial/tree/master/PyGithub_tutorial
+
+# Create Environment
+python -m venv venv
+venv\Scripts\activate
+
+# Install package
+pip install pygithub
+pip install pandas
+
+# To run
+python 01_pygithub_demo.py
+python 02_project_info.py
+python 03_exception_handling.py
+python 04_extract_PRs.py
+
+# Common exceptions
+Rate limit exception
